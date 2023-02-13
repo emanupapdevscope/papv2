@@ -1,4 +1,4 @@
-<?php include'sessaoseguraadmin.php';?>
+<?php include 'sessaoseguraadmin.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +35,7 @@
 <?php include "DBConnection.php";?>
 
 <body>
-<?php include'menuadmin.php';?>
+<?php include 'menuadmin.php';?>
   <div id="app">
     <div class="main-wrapper main-wrapper-1">
       <!-- Main Content -->

@@ -1,4 +1,4 @@
-<?php include'sessaoseguraadmin.php';?>
+<?php include 'sessaoseguraadmin.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,9 +31,9 @@
   <div id="app">
   <?php 
 		 if (($_SESSION['tipo']==1)){
-		 include'menuadmin.php';}
+		 include 'menuadmin.php';}
 		 else{
-		  include'menuuser.php';}?>
+		  include 'menuuser.php';}?>
     <div class="main-wrapper main-wrapper-1">
 	
       <!-- Main Content -->
