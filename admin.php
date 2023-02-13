@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+<?php include "sessaoseguradmin.php";?>
 <!DOCTYPE html>
 
 <html lang="en">
