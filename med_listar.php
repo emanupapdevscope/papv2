@@ -32,9 +32,9 @@
      
 		<?php 
 		 if (($_SESSION['tipo']==1)){
-		 include'menuadmin.php';}
+		 include 'menuadmin.php';}
 		 else{
-		  include'menuuser.php';}?>
+		  include 'menuuser.php';}?>
       <!-- Main Content -->
       <div class="main-content">
         <section class="section">
