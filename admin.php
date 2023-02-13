@@ -34,7 +34,7 @@
 <?php include "DBConnection.php";?>
 <body>
   
-	<?php include'menuadmin.php';?>
+	<?php include 'menuadmin.php';?>
       <!-- Main Content -->
       <div class="main-content">
         <section class="section">
