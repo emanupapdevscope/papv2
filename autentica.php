@@ -10,7 +10,7 @@ mysqli_real_connect($link, "dbemanu.mysql.database.azure.com", "emanu", "L@ctog@
 
 $user=$_POST['user'];
 $pass=$_POST['pass'];
-mysqli_query($link,"insert into logs(idu,descricao) values(25,'regchfg')");
+
 
 // VERIFICA
 $sql = mysqli_query($link,"SELECT * FROM utilizadores WHERE nome = '$user' AND password ='$pass' AND ativo=0")or die("ERRO NO COMANDO SQL");
@@ -21,8 +21,6 @@ $row = mysqli_num_rows($sql);
 
 // VERIFICA SE DEVOLVEU ALGO
 if($row == 0){
-	Header("Location:admin.php");
-session_start();
 $pag='index.php?erro=1';
 $_SESSION['erro']=1;
 Header("Location:$pag");
