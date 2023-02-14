@@ -38,7 +38,7 @@
 
 <?php
 if (isset($_SESSION['vaca'])){
-  $vaca=$S_SESSION['vaca'];
+  $vaca=$_SESSION['vaca'];
 }else{
 $divide  = explode("?", $_SERVER["REQUEST_URI"]);
 $divide['1'];
