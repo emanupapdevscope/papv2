@@ -3,8 +3,10 @@
 $link = mysqli_init();
 mysqli_ssl_set($link,NULL,NULL, 'ca.pem', NULL, NULL);
 mysqli_real_connect($link, "dbemanu.mysql.database.azure.com", "emanu", "L@ctog@l2205", "pap", 3306, MYSQLI_CLIENT_SSL);
-
-	$vaca=$_SESSION['vaca'];
+ 	
+		$divide  = explode("?", $_SERVER["REQUEST_URI"]);
+		$divide['1'];
+		$vaca=$divide['1'];
 	if ((isset($_POST["leite"])) && (isset($vaca)) && (isset($_POST["timestamp"]))){
 		$fleite=$_POST["leite"];
 		$ftimestamp=$_POST["timestamp"];
@@ -16,7 +18,7 @@ mysqli_real_connect($link, "dbemanu.mysql.database.azure.com", "emanu", "L@ctog@
 		if($query){
 			$iduser=$_SESSION['iduser'];
 						mysqli_query($link,"insert into logs(idu,descricao) values($iduser,'Registou Leite')");
-			header("Location:vaca.php");
+			header("Location:vaca.php?$vaca");
 						}
 					else{
 						echo"Erro ao inserir!Erro: ".mysqli_error($link)."";
