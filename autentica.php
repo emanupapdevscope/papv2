@@ -27,10 +27,12 @@ Header("Location:$pag");
 }
 else {
 	// aqui a variavel row deixa de ser um numero e passa a ser um array/vetor com os dados da tabela
-	$row=mysqli_fetch_array($sql,MYSQLI_ASSOC);
+	while($row=mysqli_fetch_array($sql,MYSQLI_ASSOC)){
+		$iduser=$row['coduser'];
+	  	$tipo=$row['tipo'];
+	}
     
-	$iduser=$row['coduser'];
-	$tipo=$row['tipo'];
+	
 	//INICIALIZA A SESSÃO
 session_start();
 	//GRAVA AS VARIÁVEIS NA SESSÃO
