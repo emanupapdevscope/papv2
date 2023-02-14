@@ -92,7 +92,7 @@
                           <td><?php echo $row['nome'];?></td>
                           <td><?php echo $row['password'];?></td>
 						  <td><?php if($row['tipo']==1){echo "Administrador";}else{echo"Normal";}?></td>
-						  <td><button onclick="window.location.href='<?php echo $url; ?>';" class="btn btn-primary btn-lg btn-block">Eliminar</button></td>
+						  <td><button onclick="window.location.href='<?php echo $url; ?>';" class="btn btn-primary btn-lg btn-block">Eliminarr</button></td>
                         </tr>
                       </tbody>
 					  <?php	}?>
