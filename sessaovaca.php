@@ -23,7 +23,7 @@ else {
 	
 	//GRAVA AS VARIÁVEIS NA SESSÃO
 	$_SESSION['vaca'] = $vaca;
-	Header("Refresh:0.2; url=vaca.php");
+	Header("Location:vaca.php");
 
 }//fecha else
 	?>
