@@ -1,3 +1,5 @@
+
+<?php include "sessaoseguraadmin.php";?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +27,7 @@
 </script>
 <!-- /END GA --></head>
 <?php include "DBConnection.php";?>
-<?php include "sessaoseguraadmin.php";?>
+
 <body>
   <div id="app">
     <div class="main-wrapper main-wrapper-1">
