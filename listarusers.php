@@ -32,11 +32,7 @@
   <div id="app">
     <div class="main-wrapper main-wrapper-1">
      
-		<?php 
-		 if (($_SESSION['tipo']==1)){
-		 include 'menuadmin.php';}
-		 else{
-		  include 'menuuser.php';}?>
+		<?php include 'menuadmin.php';?>
       <!-- Main Content -->
       <div class="main-content">
         <section class="section">
