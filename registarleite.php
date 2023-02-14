@@ -22,6 +22,7 @@ mysqli_real_connect($link, "dbemanu.mysql.database.azure.com", "emanu", "L@ctog@
 						echo"Erro ao inserir!Erro: ".mysqli_error($link)."";
 						}
 					
-					}		
+					}	
+	else {echo 'errooooooo';}	
 					
  ?>
