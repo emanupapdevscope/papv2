@@ -1,4 +1,4 @@
-<?php include "sessaoseguradmin.php";?>
+<?php include "sessaoseguraadmin.php";?>
 <!DOCTYPE html>
 
 <html lang="en">
