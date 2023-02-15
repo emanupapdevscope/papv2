@@ -17,7 +17,8 @@ mysqli_real_connect($link, "dbemanu.mysql.database.azure.com", "emanu", "L@ctog@
 		
 		if($query){
 			$iduser=$_SESSION['iduser'];
-			$log=mysqli_query($link,"insert into logs(idu,descricao) values('$iduser','Registou Leite')");
+			vardump($iduser);
+			$log=mysqli_query($link,"insert into logs(idu,descricao) values($iduser,'Registou Leite')");
 			if($log){			
 				header("Location:vaca.php?.$vaca");
 						}
