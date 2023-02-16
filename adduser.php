@@ -1,5 +1,4 @@
-<?php include 'sessaoseguraadmin.php';
-echo $_SESSION['iduser'];?>
+<?php include 'sessaoseguraadmin.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -97,7 +96,8 @@ echo $_SESSION['iduser'];?>
       </div>
       </div>
     </section>
-	<?php include 'footer.php';?>
+	<?php include 'footer.php';
+  echo $_SESSION['iduser'];?>
   </div>
   
 <?php			
