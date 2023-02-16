@@ -1,5 +1,5 @@
 
-<?php include 'sessaoseguraadmin.php';?>
+<?php include sessaoseguraadmin.php;?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,7 +55,7 @@
                       <select class="form-control" name="estado">
                         <option value="todas">Todos</option>
                         <option value="1">Administradores</option>
-                        <option value="0">Utilizadores Normais <?php echo $_SESSION['tipo'];?></option>
+                        <option value="0">Utilizadores Normais</option>
                       </select>
 					<button type="submit" class="btn btn-primary btn-lg btn-block" >Listar </button>
                 </div>
