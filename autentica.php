@@ -46,7 +46,8 @@ session_start();
 	$log=mysqli_query($link,"insert into logs(idu,descricao) values($iduser,'Início de Sessão')");
 	
 		if($tipo==1){
-			Header("Location:admin.php");
+			echo $_SESSION['iduser'];
+			//Header("Location:admin.php");
 		}
 		else{
 			Header("Location:user.php");
