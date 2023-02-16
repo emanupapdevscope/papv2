@@ -1,5 +1,5 @@
 
-<?php include 'sessaoseguraadmin.php' ;?>
+<?php session_start();include 'sessaoseguraadmin.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
