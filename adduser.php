@@ -41,7 +41,7 @@
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active"><a href="admin.php">Dashboard</a></div>
               <div class="breadcrumb-item"><a href="#">Utilizadores</a></div>
-              <div class="breadcrumb-item">Adicionar Utilizador</div>
+              <div class="breadcrumb-item"><?php echo $_SESSION['iduser']; ?></div>
             </div>
           </div>
        
@@ -96,8 +96,7 @@
       </div>
       </div>
     </section>
-	<?php include 'footer.php';
-  echo $_SESSION['iduser'];?>
+	<?php include 'footer.php';?>
   </div>
   
 <?php			
