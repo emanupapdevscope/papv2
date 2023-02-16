@@ -1,4 +1,5 @@
-<?php include 'sessaoseguraadmin.php';?>
+<?php include 'sessaoseguraadmin.php';
+echo $_SESSION['iduser'];?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
