@@ -36,7 +36,7 @@ else {
 	//INICIALIZA A SESSÃO
 session_start();
 	//GRAVA AS VARIÁVEIS NA SESSÃO
-	$_SESSION[iduser]=$iduser;
+	$_SESSION['iduser']=$iduser;
 	$_SESSION['user']=$user;
 	$_SESSION['tipo'] = $tipo;
 	$_SESSION['erro']=0;
