@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'papemanu'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A7BA75AB5A1B47088CC72C6ED7148A7F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6A9BB81A6F1D44779847A7118C16A2B6 }}
           package: .
